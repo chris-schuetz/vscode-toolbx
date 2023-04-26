@@ -24,7 +24,7 @@ There are some important configurations that need to be made in order for devcon
 
 ## Limitations
 - "Clone Repository in Container Volume" doesn't work. I currently clone repos manually on the command line, then open the folder in code and "Reopen in Container".
-- When a container was created and is reused in a subsequent start of VS Code, the wayland socket isn't handled properly. The script 'cleanupWaylandSockets.sh' tries to correct the problem, though it needs to be executed manually every time the issue occurs.
+- When a container was created and is reused in a subsequent start of VS Code on Wayland, the Wayland socket isn't handled properly. The script 'cleanupWaylandSockets.sh' tries to correct the problem, though it needs to be executed manually every time the issue occurs. No such issue occurs on X11.
 
 ## Resources
 The following resources helped immensely:
